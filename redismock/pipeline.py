@@ -1,4 +1,4 @@
-from mockredis.redis import MockRedis
+from redismock.mock import MockRedis
 
 
 class MockRedisPipeline(MockRedis):

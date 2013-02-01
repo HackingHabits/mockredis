@@ -2,7 +2,7 @@ import random
 from datetime import datetime, timedelta
 from collections import defaultdict
 
-from mockredis.lock import MockRedisLock
+from redismock.lock import MockRedisLock
 
 
 def _get_total_seconds(td):

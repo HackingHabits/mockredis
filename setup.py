@@ -3,10 +3,10 @@
 from setuptools import setup, find_packages
 import os
 
-setup(name='mockredis',
-      version='1.0' + os.environ.get('BUILD_SUFFIX', ''),
+setup(name='redismock',
+      version='1.0.2',
       description='Mock for redis-py',
-      url='http://www.github.com/locationlabs/mockredis',
+      url='https://github.com/HackingHabits/mockredis',
       license='Apache2',
       packages=find_packages(exclude=['*.tests']),
       setup_requires=[

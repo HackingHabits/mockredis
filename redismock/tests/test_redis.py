@@ -1,5 +1,5 @@
 from unittest import TestCase
-from mockredis import MockRedis
+from redismock.mock import MockRedis
 
 
 class TestRedis(TestCase):
