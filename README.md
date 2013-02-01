@@ -5,9 +5,16 @@ without requiring a [redis-server][redis] install.
 
 This package will hopefully (soon) cover entire redis-py offering
 
+## Install
+
+    pip install redismock
+    
 ## Usage
 
-`redismock.make_redis_client` can be used to patch instances of the *redis client*. 
+    from redismock import mockmanager
+    redis_client = mockmanager.mock_redis_client()
+    redis_client.set("key","value")
+    redis_client.get("key")
 
 ## Attribution
 
