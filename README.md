@@ -23,4 +23,5 @@ This code is shamelessly derived from work by [John DeRosa][john] [locationlabs]
 [redis-py]: https://github.com/andymccurdy/redis-py
 [redis]:    http://redis.io
 [john]:     http://seeknuance.com/2012/02/18/replacing-redis-with-a-python-mock/
+[locationlabs]: https://github.com/locationlabs/mockredis
 
