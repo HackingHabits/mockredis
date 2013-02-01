@@ -18,7 +18,7 @@ This package will hopefully (soon) cover entire redis-py offering
 
 ## Attribution
 
-This code is shamelessly derived from work by [John DeRosa][john] [locationlabs][locationlabs].
+This code is shamelessly derived from work by [John DeRosa][john] and [locationlabs][locationlabs].
 
 [redis-py]: https://github.com/andymccurdy/redis-py
 [redis]:    http://redis.io
