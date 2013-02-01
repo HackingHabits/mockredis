@@ -1,7 +1,7 @@
-from redismock.mock import MockRedis
+from redismock import mock
 
 
-class MockRedisPipeline(MockRedis):
+class MockRedisPipeline(mock.MockRedis):
     """
     Imitate a redis-python pipeline object
     so unit tests can run without needing a

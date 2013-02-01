@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 import os
 
 setup(name='redismock',
-      version='1.0.2',
+      version='1.0.5',
       description='Mock for redis-py',
       url='https://github.com/HackingHabits/mockredis',
       license='Apache2',
@@ -16,5 +16,5 @@ setup(name='redismock',
       ],
       tests_require=[
       ],
-      test_suite='mockredis.tests',
+      test_suite='mocks.redismock.tests',
       )
